@@ -19,10 +19,13 @@ button {
   margin: 20px;
 }
 .data {
-  background-color: rgba(56, 182, 225, 0.288);
-  color: wheat;
+  background-color: rgba(118, 210, 222, 0.288);
+  color: black;
   padding: 20px;
 }
 body {
   background-color: rgb(32, 130, 176);
+}
+.databtn {
+  margin: 5px;
 }

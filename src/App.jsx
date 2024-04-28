@@ -155,7 +155,7 @@ function App() {
                 <p> ToDo Description : {todo.description}</p>
                 <p>Status: {todo.status}</p>
                 <button
-                  className="btn btn-success"
+                  className="btn btn-success databtn"
                   onClick={() =>
                     handleStatusChange(
                       todo.id,
@@ -170,13 +170,13 @@ function App() {
                     : "Mark as Completed"}
                 </button>
                 <button
-                  className="btn btn-success"
+                  className="btn btn-success databtn"
                   onClick={() => handleEditTodo(todo.id)}
                 >
                   Edit
                 </button>
                 <button
-                  className="btn btn-success"
+                  className="btn btn-success databtn"
                   onClick={() => handleDeleteTodo(todo.id)}
                 >
                   Delete
